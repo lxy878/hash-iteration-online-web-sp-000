@@ -17,4 +17,3 @@ def select_winner(passengers)
   return winner
 end
 
-puts select_winner(passengers)
