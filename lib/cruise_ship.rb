@@ -8,10 +8,10 @@ suite_e: "Crumpet the Elf"
 require 'pry'
 def select_winner(passengers)
   # add the code snippet here!
+  winner = ""
   passengers.each do |key, name|
     if key == :suite_a and name.start_with?("A")
-      # binding.pry
-      return name
+      name
     end
   end
 end
