@@ -13,8 +13,7 @@ def select_winner(passengers)
       # binding.pry
       return name
     end
-    binding.pry
   end
 end
 
-select_winner(passengers)
+puts select_winner(passengers)
