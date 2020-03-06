@@ -13,6 +13,7 @@ def select_winner(passengers)
       binding.pry
       return name
     end
+    binding.pry
   end
 end
 
